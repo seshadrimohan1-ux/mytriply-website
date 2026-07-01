@@ -7,6 +7,9 @@ body {
 }
 
 button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;      
     padding: 12px 24px;
     font-size: 18px;
     cursor: pointer;
