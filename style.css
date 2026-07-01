@@ -11,9 +11,3 @@ button {
     font-size: 18px;
     cursor: pointer;
 }
-
-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
