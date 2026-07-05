@@ -1,22 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Trip Planner</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="planner.css">
+
 </head>
 
 <body>
 
-<h1>Trip Planner</h1>
+<header>
 
-<p>This is where the trip planning tool will go.</p>
+    <h1>Triply</h1>
+    <p>Trips, Without the Hassle</p>
 
-<a href="index.html">
-    <button>Back to Home</button>
-</a>
+</header>
+
+
+<!-- Questions -->
+
+<section class="questions">
+
+<div class="questionBox">
+
+<div class="column">
+
+<label><input type="checkbox"> Beach</label>
+
+<label><input type="checkbox"> Mountains</label>
+
+<label><input type="checkbox"> Hiking</label>
+
+<label><input type="checkbox"> Cities</label>
+
+</div>
+
+<div class="column">
+
+<label><input type="checkbox"> Camping</label>
+
+<label><input type="checkbox"> Museums</label>
+
+<label><input type="checkbox"> Amusement Parks</label>
+
+<label><input type="checkbox"> Nightlife</label>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- Text Box -->
+
+<section class="notes">
+
+<textarea placeholder="Insert text..."></textarea>
+
+<p class="instructions">
+
+Instructions
+
+</p>
+
+</section>
+
+
+<!-- Result -->
+
+<section class="results">
+
+<button id="tripButton">
+
+See your Trip!
+
+</button>
+
+<div class="picture">
+
+Picture goes here
+
+</div>
+
+</section>
+
+
+<script src="planner.js"></script>
 
 </body>
+
 </html>
