@@ -119,3 +119,12 @@ footer{
 
     color:#555;
 }
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: #f0f0f0;
+}
