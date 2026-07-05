@@ -1,5 +1,5 @@
-const button = document.getElementById("button");
+const button = document.getElementById("planButton");
 
-button.addEventListener("click", () => {
-    alert("Im soooo bloated!");
+button.addEventListener("mouseenter", () => {
+    console.log("Hovering over button");
 });
