@@ -206,11 +206,11 @@ color:gray;
 
 }
 
-header h1 a {
-    color: white;
-    text-decoration: none;
+header a {
+    color: white !important;
+    text-decoration: none !important;
 }
 
-header h1 a:hover {
+header a:hover {
     color: #f0f0f0;
 }
