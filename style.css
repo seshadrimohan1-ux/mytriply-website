@@ -143,14 +143,15 @@ header a:hover {
 
 .cornerButtons{
 
-    margin:1000px 0 0px 25px;
+    position: relative;
 
-    display:flex;
-    flex-direction:column;
+    left: 25px;
+    top: -50px;
 
-    align-items:flex-start;
+    display: flex;
+    flex-direction: column;
 
-    gap:12px;
+    gap: 12px;
 
 }
 
