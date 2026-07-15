@@ -9,7 +9,8 @@
     <title>Trip Planner</title>
 
     <link rel="stylesheet" href="planner.css">
-
+    <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 </head>
 
 <body>
@@ -21,7 +22,33 @@
 
 </header>
 
+<section class="mapSection">
 
+    <h2>Select a Destination</h2>
+
+    <div id="map"></div>
+
+    <div class="coordinates">
+
+        <label>
+
+            Latitude
+
+            <input type="text" id="latitude" readonly>
+
+        </label>
+
+        <label>
+
+            Longitude
+
+            <input type="text" id="longitude" readonly>
+
+        </label>
+
+    </div>
+
+</section>
 <!-- Questions -->
 
 <section class="questions">
@@ -86,7 +113,7 @@ See your Trip!
 
 </section>
 
-
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="planner.js"></script>
 
 </body>
