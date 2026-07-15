@@ -137,43 +137,47 @@ header a:hover {
     color: #f0f0f0;
 }
 
-/* EXTRA BUTTONS */
+/* Bottom-left button stack */
 
-.extraButtons{
+.cornerButtons{
+
+    position:fixed;
+
+    left:25px;
+    bottom:25px;
 
     display:flex;
     flex-direction:column;
-    align-items:center;
 
-    gap:18px;
+    align-items:flex-start;
 
-    margin-top:35px;
+    gap:12px;
+
+    z-index:1001;
 
 }
 
-/* About Us */
+/* Largest */
 
 .aboutButton{
 
     display:block;
 
-    width:240px;
+    width:220px;
 
-    padding:12px 0;
+    padding:14px 0;
 
     background:#4a7cff;
 
     color:white;
 
-    text-align:center;
-
     text-decoration:none;
+
+    text-align:center;
 
     font-size:22px;
 
     border-radius:8px;
-
-    transition:.25s;
 
 }
 
@@ -183,29 +187,27 @@ header a:hover {
 
 }
 
-/* Proto 1 */
+/* Medium */
 
 .proto1Button{
 
     display:block;
 
-    width:180px;
+    width:170px;
 
-    padding:10px 0;
+    padding:12px 0;
 
     background:#4a7cff;
 
     color:white;
 
-    text-align:center;
-
     text-decoration:none;
+
+    text-align:center;
 
     font-size:18px;
 
     border-radius:8px;
-
-    transition:.25s;
 
 }
 
@@ -215,29 +217,27 @@ header a:hover {
 
 }
 
-/* Proto 2 */
+/* Smallest */
 
 .proto2Button{
 
     display:block;
 
-    width:130px;
+    width:120px;
 
-    padding:8px 0;
+    padding:10px 0;
 
     background:#4a7cff;
 
     color:white;
 
-    text-align:center;
-
     text-decoration:none;
+
+    text-align:center;
 
     font-size:15px;
 
     border-radius:8px;
-
-    transition:.25s;
 
 }
 
