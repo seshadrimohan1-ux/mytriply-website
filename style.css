@@ -139,12 +139,11 @@ header a:hover {
 
 /* Bottom-left button stack */
 
+/* Bottom-left buttons */
+
 .cornerButtons{
 
-    position:fixed;
-
-    left:25px;
-    bottom:25px;
+    margin:40px 0 40px 25px;
 
     display:flex;
     flex-direction:column;
@@ -152,8 +151,6 @@ header a:hover {
     align-items:flex-start;
 
     gap:12px;
-
-    z-index:1001;
 
 }
 
