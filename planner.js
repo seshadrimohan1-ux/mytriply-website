@@ -26,6 +26,35 @@ map.on('click', function(e){
 
     marker = L.marker([lat,lng]).addTo(map);
 
+    fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&accept-language=en`)
+    .then(response => response.json())
+    .then(data => {
+
+        const address = data.address;
+
+        const state =
+            address.state ||
+            address.province ||
+            address.region ||
+            "";
+
+        const country =
+            address.country ||
+            "";
+
+        document.getElementById("locationDisplay").textContent =
+            `${state}, ${country}`;
+
+    })
+    .catch(error => {
+
+        console.error(error);
+
+        document.getElementById("locationDisplay").textContent =
+            "Unable to determine location.";
+
+    });
+
 });
 
 const button = document.getElementById("tripButton");
